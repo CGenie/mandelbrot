@@ -3,7 +3,7 @@
             [clojure.spec :as s]))
 
 
-(def max-iters 10)
+(def max-iters 20)
 
 
 (defn m-f

@@ -3,6 +3,9 @@
 
 (enable-console-print!)
 
+; See http://stackoverflow.com/questions/11824815/fast-complex-number-arithmetic-in-clojure
+; for a hint for faster implementation than ordinary vectors
+
 (comment
 (s/def ::complex
   (s/and vector?
